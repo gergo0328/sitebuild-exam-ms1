@@ -1,0 +1,32 @@
+section.up {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1200px;
+  background-color: #efd592;
+}
+
+@media screen and (max-width: 1200px) {
+  section.up {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+
+section.down {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1200px;
+  background-color: #4343f9;
+}
+
+@media screen and (max-width: 1200px) {
+  section.down {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+/*# sourceMappingURL=stlye.css.map */
